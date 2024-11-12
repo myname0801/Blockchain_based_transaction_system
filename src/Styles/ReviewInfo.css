@@ -1,0 +1,81 @@
+.Navi{
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.all{
+    margin-left : 10%;
+}
+/*이미지 출력*/
+.Imgborder{
+    width: 310px;
+    height: 140px;
+    flex-shrink: 0;
+}
+/*이미지 등록 버튼*/
+.enrollImgbutton{
+    border-radius: 10px;
+    border: 1px solid #70BEF7;
+    background: #FFF;
+    width: 310px;
+    height: 35px;
+    flex-shrink: 0;
+    margin-top : 2%;
+}
+
+/*리뷰 내용*/
+.reviewbox{
+    border: 1px solid #70BEF7;
+    background: #FFF;
+    width: 310px;
+    height: 210px;
+    flex-shrink: 0;
+    margin-top : 2%;
+    font-size : 20px;
+    text-align: left;
+}
+
+/*등록 버튼*/
+.enrollreviewbutton{
+
+    width: 120px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #70BEF7;
+    border-color :#70BEF7;
+    color : white;
+    position : fixed;
+    left: 57%;
+    top: 75%;
+
+}
+
+/*리뷰평점*/
+.star-rating {
+    display: flex;
+  }
+  
+  .star {
+    appearance: none;
+    padding: 1px;
+  }
+  
+  .star::after {
+    content: '☆';
+    color: hsl(60, 100%, 45%);/*(색깔 , 채도, 명도,)*/
+    font-size: 25px;
+  }
+
+.filled-star{
+  appearance: none;
+  padding: 1px;
+}
+  .filled-star::after{
+    content: '★';
+    color: hsl(60, 100%, 45%);
+    font-size: 25px;
+  }
+

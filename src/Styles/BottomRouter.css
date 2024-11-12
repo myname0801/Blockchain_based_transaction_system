@@ -1,0 +1,18 @@
+.Bottom{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+
+.Bimg{
+    width: 32px;
+    height: 32px;
+}
+.Bmid{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+

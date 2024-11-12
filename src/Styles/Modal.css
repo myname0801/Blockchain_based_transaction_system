@@ -1,0 +1,18 @@
+.memo {
+    position: inherit;
+    margin: auto;
+    border: none;
+    background-color: transparent;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+
+.namechange > input , .namechange > button{
+    border: 0;
+    background-color: transparent;
+}
+ .namechange > button {
+    float: inline-end;
+ }

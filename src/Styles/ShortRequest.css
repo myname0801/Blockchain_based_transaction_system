@@ -1,0 +1,47 @@
+.inputBox{
+    width : 73%;
+    height : 2vh;
+    margin-top: 3%;
+    border: 1px solid #70BEF7;
+    border-radius: 5px;
+}/* 장소및 모델 입력 박스  */
+
+.margin {
+    margin-left: 3%;
+}
+
+.requestbox{
+    display: flex;
+    width: 90%;
+    height: 30vh;
+    border-radius: 5px;
+    border: 1px solid #70BEF7;
+    text-align: left;
+}
+/* 요청사항입력박스 */
+.dateDiv{
+    display :flex;
+    width :70%;
+}
+.datebox{
+    width : 80%;
+    margin-top: 15%;
+    margin-left : 5%;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #70BEF7;
+} /*날짜 입력박스*/
+.buttrequest{
+    background: #70BEF7;
+    border : none;
+    border-radius: 5%;
+    color : white;
+    height : 5vh;
+    width : 30%;
+    margin : 5%;
+    margin-left: 35%;
+}/*요청 버튼*/
+
+.margin > div > h3 {
+    margin-bottom: 0;
+}

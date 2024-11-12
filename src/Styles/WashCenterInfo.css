@@ -1,0 +1,41 @@
+.restDateText{ /*텍스트 공간 조정*/
+    margin-left : 9%
+}
+
+.locateText{
+    margin-left : 12%;
+}
+/*제목*/
+.centerrating{
+    color: hsl(60, 100%, 45%);/*(색깔 , 채도, 명도,)*/
+}
+.ratingText{
+    margin-top : -10%;
+    margin-bottom: -5%;
+    font-size: 20px;
+}
+/*세차장 이미지*/
+.washCenterImg{
+    width: 360px;
+    height : 300px;
+    margin: 4%;
+    margin-bottom: 2%;
+}
+
+/*자리 예약 버튼*/
+.reservateSpotbut{
+    border : none;
+    background-color : #70BEF7;
+    border-radius: 10px;
+    width : 200px;
+    height : 50px;
+    color : white;
+    font-size: 20px;
+}
+.setCenter{
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    text-align: center;
+}

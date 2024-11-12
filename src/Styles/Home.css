@@ -1,0 +1,62 @@
+@font-face { /*프로젝트 전체에 적용할 폰트*/
+    font-family: "Galaxy";
+    src: url(./Fonts/GalaxyGamePlaysKorean.ttf);
+}
+
+*{
+    font-family: "Galaxy";
+}
+
+/*#region 주변 매장 보기*/
+.left{ /*버튼 왼쪽정렬*/
+    float: left;
+
+    border: 0;
+    background-color: transparent;
+}
+
+.nearimg{ /*이미지 글자랑 위치안맞아서 약간 수정한거*/
+    vertical-align: middle;
+
+}
+/*#endregion*/
+
+/*#region  지도에서 보기 */
+.right{
+    float: right; /*버튼 오른쪽정렬*/
+
+    border: 0;
+    background-color: transparent;
+}
+
+.mapimg{
+    vertical-align: middle;
+}
+/*#endregion*/
+
+.text{
+    margin-left: 2%;
+}
+
+.washimg{
+    float: left;
+    border: 0;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+
+.Navi{
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+div > a  {
+    text-decoration: none;
+    color: black;
+}
+.text > a > button{
+    background-color: transparent;
+    border: 0;
+}

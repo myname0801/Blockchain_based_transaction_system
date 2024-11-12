@@ -1,0 +1,61 @@
+/* Frame 18 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 12px 15px 12px 5px;
+gap: 140px;
+
+position: absolute;
+width: 320px;
+height: 53px;
+left: 20px;
+top: 129px;
+
+background: #E9E7E7;
+border-radius: 7px;
+
+
+/* @@세차업자 시간 : 13 : 30 ~ 15 : 30 */
+
+margin: 0 auto;
+width: 92px;
+height: 29px;
+
+font-family: 'Galaxy Game Plays Korean';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 17px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 매주 토요일 (외부) */
+
+margin: 0 auto;
+width: 66px;
+height: 29px;
+
+font-family: 'Galaxy Game Plays Korean';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 17px;
+text-align: right;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
